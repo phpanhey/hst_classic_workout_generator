@@ -1,2 +1,4 @@
 *.json
 *.pyc
+training_protocol.md
+*.pdf
