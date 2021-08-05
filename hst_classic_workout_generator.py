@@ -62,7 +62,8 @@ def create_markdown_markup_micro_training_protocol(
     macro_training_protocol_dict, rm_type
 ):
     markdown = f"## Cycle {rm_type}\n"
-    markdown += "|exercise|unit_1|unit_2|unit_3|unit_4|unit_5|unit_6|\n|--------|------|------|------|------|------|------|\n"
+    markdown += "|exercise|unit_1|unit_2|unit_3|unit_4|unit_5|unit_6|\n"
+    markdown +="|--------|------|------|------|------|------|------|\n"
     for excercise in macro_training_protocol_dict[rm_type]:
         excercise_title = excercise["title"]
         unit_1 = excercise["training_unit_1"]
