@@ -12,7 +12,8 @@ def main():
 
 
 def get_config():
-    return json.loads(open("config.json", "r").read())
+    with open("config.json", "r") as file:
+        return json.loads(file.read())
 
 
 def create_macro_training_protocol(config):
@@ -63,7 +64,7 @@ def create_markdown_markup_micro_training_protocol(
 ):
     markdown = f"## Cycle {rm_type}\n"
     markdown += "|exercise|unit_1|unit_2|unit_3|unit_4|unit_5|unit_6|\n"
-    markdown +="|--------|------|------|------|------|------|------|\n"
+    markdown += "|--------|------|------|------|------|------|------|\n"
     for excercise in macro_training_protocol_dict[rm_type]:
         excercise_title = excercise["title"]
         unit_1 = excercise["training_unit_1"]
@@ -91,9 +92,8 @@ def create_markdown_markup_macro_training_protocol(macro_training_protocol_dict)
 
 
 def write_to_file(content, filename):
-    f = open(filename, "w")
-    f.write(content)
-    f.close()
+    with open(filename, "w") as file:
+        file.write(content)
 
 
 def create_pdf_from_markdown(markdown):
