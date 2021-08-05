@@ -1,4 +1,8 @@
 import unittest
+import sys
+import os
+
+sys.path.append(os.getcwd())
 from hst_classic_workout_generator import (
     create_training_protocol_by_excercise,
     get_training_unit_weights,
