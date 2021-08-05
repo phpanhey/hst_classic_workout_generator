@@ -1,5 +1,7 @@
 import json
-import os;
+import os
+
+
 def main():
     config = get_config()
     macro_training_protocol_dict = create_macro_training_protocol(config)
@@ -7,7 +9,6 @@ def main():
         macro_training_protocol_dict
     )
     create_pdf_from_markdown(macro_training_protocol_markdown)
-
 
 
 def get_config():
@@ -95,9 +96,10 @@ def write_to_file(content, filename):
 
 
 def create_pdf_from_markdown(markdown):
-    write_to_file(markdown,"training_protocol.md")
-    os.system("pandoc training_protocol.md -o training_protocol.pdf --pdf-engine=xelatex");
-    
+    write_to_file(markdown, "training_protocol.md")
+    os.system(
+        "pandoc training_protocol.md -o training_protocol.pdf --pdf-engine=xelatex"
+    )
 
 
 if __name__ == "__main__":
