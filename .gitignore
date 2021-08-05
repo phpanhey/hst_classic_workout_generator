@@ -1,4 +1,9 @@
 *.json
+*.log
+*.pot
 *.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
 training_protocol.md
 *.pdf
