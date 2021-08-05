@@ -178,9 +178,10 @@ class TestHstClassicWorkoutGenerator(unittest.TestCase):
     def test_create_pdf_from_markdown(self):
         markdown = "# markdown"
         create_pdf_from_markdown(markdown)
-        filename = "training_protocol.pdf"
-        self.assertTrue(os.path.isfile(filename))
-        os.remove(filename)
+        filename = "training_protocol"
+        self.assertTrue(os.path.isfile(filename + ".pdf"))
+        os.remove(filename + ".md")
+        os.remove(filename + ".pdf")
 
 
 if __name__ == "__main__":
