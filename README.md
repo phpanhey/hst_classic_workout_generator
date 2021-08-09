@@ -7,7 +7,7 @@ the script depends on a `config.json` that defines progression percentage, exerc
 
 ```json
 {
-    "progression_percentage": 4.17,
+    "progression_percentage": 5,
     "exercises": [
         {
             "title":"bench press",
