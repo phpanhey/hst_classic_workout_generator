@@ -78,7 +78,14 @@ def create_markdown_markup_micro_training_protocol(
 
 
 def create_markdown_markup_macro_training_protocol(macro_training_protocol_dict):
+    progression_percentage = get_config()["progression_percentage"]
     markdown = "# hst macro-cycle trainingprotocol\n"
+    markdown += (
+        "training unit 1 will be at "
+        + str(100 - progression_percentage * 5)
+        + "% of rm."
+        + f" progression is **{str(progression_percentage)}%** per unit.\n\n"
+    )
     markdown += create_markdown_markup_micro_training_protocol(
         macro_training_protocol_dict, "15RM"
     )
