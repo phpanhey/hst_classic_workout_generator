@@ -68,3 +68,5 @@ python3 hst_classic_workout_generator.py
 ```
 will generate a `training_protocol.pdf`.
 
+## dependencies
+command line `pandoc` and `latex` is required for pdf creation.
