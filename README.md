@@ -10,49 +10,49 @@ the script depends on a `config.json` that defines progression percentage, exerc
     "progression_percentage": 4.17,
     "exercises": [
         {
-            "title": "bankdrücken",
-            "15RM": 21.25,
-            "10RM": 25,
-            "5RM": 26.25
+            "title":"bench press",
+            "15RM": 62.5,
+            "10RM": 70,
+            "5RM": 72.5
         },
         {
-            "title": "military press",
-            "15RM": 10,
-            "10RM": 12.5,
-            "5RM": 15
+            "title":"military press",
+            "15RM": 40,
+            "10RM": 45,
+            "5RM": 50
         },
         {
-            "title": "schulternheben",
-            "15RM": 45,
-            "10RM": 50,
-            "5RM": 52.5
+            "title":"shoulder raise",
+            "15RM": 110,
+            "10RM": 120,
+            "5RM": 125
         },
         {
-            "title": "rudern",
+            "title":"rowing",
             "15RM": 90,
             "10RM": 95,
             "5RM": 100
         },
         {
-            "title": "kniebeugen",
-            "15RM": 20,
-            "10RM": 22.5,
-            "5RM": 25
+            "title":"squats",
+            "15RM": 60,
+            "10RM": 65,
+            "5RM": 70
         },
         {
-            "title": "fersenheben",
+            "title":"heel raises",
             "15RM": 65,
             "10RM": 72.5,
             "5RM": 80
         },
         {
-            "title": "armbeuge sz",
-            "15RM": 15,
-            "10RM": 20,
-            "5RM": 21.25
+            "title":"curls",
+            "15RM": 37,
+            "10RM": 47,
+            "5RM": 49.5
         },
         {
-            "title": "trizepsdrücken",
+            "title":"triceps extension",
             "15RM": 30,
             "10RM": 35,
             "5RM": 40
