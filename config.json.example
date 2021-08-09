@@ -1,0 +1,53 @@
+{
+    "progression_percentage": 4.17,
+    "exercises": [
+        {
+            "title":"bench press",
+            "15RM": 62.5,
+            "10RM": 70,
+            "5RM": 72.5
+        },
+        {
+            "title":"military press",
+            "15RM": 40,
+            "10RM": 45,
+            "5RM": 50
+        },
+        {
+            "title":"shoulder raise",
+            "15RM": 110,
+            "10RM": 120,
+            "5RM": 125
+        },
+        {
+            "title":"rowing",
+            "15RM": 90,
+            "10RM": 95,
+            "5RM": 100
+        },
+        {
+            "title":"squats",
+            "15RM": 60,
+            "10RM": 65,
+            "5RM": 70
+        },
+        {
+            "title":"heel raises",
+            "15RM": 65,
+            "10RM": 72.5,
+            "5RM": 80
+        },
+        {
+            "title":"curls",
+            "15RM": 37,
+            "10RM": 47,
+            "5RM": 49.5
+        },
+        {
+            "title":"triceps extension",
+            "15RM": 30,
+            "10RM": 35,
+            "5RM": 40
+        }
+    ]
+}
